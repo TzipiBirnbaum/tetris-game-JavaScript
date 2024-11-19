@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="JavaScript.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body onload="start()" dir="rtl" onunload="saveGame()">
+    <div class="radioAreaBackgraund">
+        <div class="radioArea">
+            <div class="rightRadio">
+                <input type="radio" id="rate1" name="rate" value="rate1" checked="checked" />מתחיל<br />
+                <input type="radio" id="rate2" name="rate" value="rate2" />בינוני<br />
+                <input type="radio" id="rate3" name="rate" value="rate3" />מתקדם<br />
+            </div>
+            <div class="leftRadio">
+                <input type="radio" id="rate4" name="rate" value="rate4" />מומחה<br />
+                <input type="radio" id="rate5" name="rate" value="rate5" />אלוף<br />
+                <input type="radio" id="rate6" name="rate" value="rate6" />מהירות עולה<br />
+            </div>
+            <button class="btnNewGame" onclick="rating()">משחק חדש</button>
+            <button class="btnConGame" onclick="conGame()">ביטול</button>
+        </div>
+    </div>
+    <div class="radioAreaBackgraund">
+        <div class="radioArea">
+            <div class="radioLevel">
+                <input type="radio" id="l1" name="radioLevel" value="l1" checked="checked" />רמה א<br />
+                <input type="radio" id="l2" name="radioLevel" value="l2" />רמה ב<br />
+                <input type="radio" id="l3" name="radioLevel" value="l3" />רמה ג<br />
+            </div>
+            <button class="btnConGame" onclick="conGame()">ביטול</button>
+            <button class="btnNewGame" onclick="changeLevel()">משחק חדש</button>
+
+
+
+        </div>
+    </div>
+    <div id="warpper">
+        <img id="background" src="image/b4.png" />
+        <nav id="BoardMenu" class="menu" onmouseleave="closeNav()">
+            <div id="openBoardMenu" onmouseover="openNav()"></div>
+            <a href="openPage.html">חזור לדף הבית</a>
+            <label onclick="startNewGame()">משחק חדש</label>
+            <label onclick="showRadio()">בחר מהירות</label>
+            <label onclick="showLevelRadio()">בחר רמה</label>
+        </nav>
+        <div id="gameArea">
+            <table id="board"></table>
+            <div>
+                <fieldset>
+                    <legend></legend>                    
+                </fieldset>
+                <fieldset>
+                    <legend>your score</legend>
+                    <div id="score"></div>
+                </fieldset>
+                <fieldset>
+                    <legend>speed</legend>
+                    <div id="speedLevel"></div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
