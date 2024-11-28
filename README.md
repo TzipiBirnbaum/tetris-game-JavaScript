@@ -22,7 +22,7 @@ This GitHub repository contains a fully functional **Tetris game** implemented i
    ```bash  
    git clone https://github.com/TziporaGoldshmidt/tetris-game-javaScript.git  
    ```  
-2. Open the `index.html` file in your preferred browser.  
+2. Open the `openPage.html` file in your preferred browser.  
 
 Enjoy the classic Tetris experience directly in your browser!  
 
