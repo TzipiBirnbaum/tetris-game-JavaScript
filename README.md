@@ -20,7 +20,7 @@ This GitHub repository contains a fully functional **Tetris game** implemented i
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/tetris-game.git  
+   git clone https://github.com/TziporaGoldshmidt/tetris-game.git  
    ```  
 2. Open the `index.html` file in your preferred browser.  
 
