@@ -27,9 +27,9 @@ This GitHub repository offers three timeless arcade games—**Tetris**, **Jumpin
 ---
 
 ## Technology Stack
-- **HTML5:** Structures the game elements and ensures a robust rendering process.
-- **CSS3:** Provides a fully responsive and visually engaging layout.
-- **JavaScript:** Implements core game logic, including real-time interaction, dynamic state management, and session handling.
+- **HTML5:** Structure and rendering of the game elements.
+- **CSS3:** Styling and layout for an engaging user experience.
+- **JavaScript:** Core game logic, state management, and user interaction.
 - **Session Storage:** Enables state persistence, allowing players to save and continue their game progress.
 
 ---
@@ -53,7 +53,3 @@ This GitHub repository offers three timeless arcade games—**Tetris**, **Jumpin
    - **Snake**
 4. Enjoy hours of entertainment directly in your browser, with your progress saved automatically!
 
----
-
-## Contributions and Enhancements
-We welcome contributions to refine the games further. Feel free to report issues, suggest features, or submit pull requests. Let’s work together to make this project a benchmark for web-based arcade games!
